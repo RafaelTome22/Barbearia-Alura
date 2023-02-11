@@ -1,48 +1,138 @@
-#banner {
-	width:100%;
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(#fefefe, #333);
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+header {
+    background: #bbb;
+    padding: 20px 0;
 }
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+}
+
 
 .titulo-principal {
-	padding-left: 20px;
-}
-
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
 	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
 }
 
-#missao {
-	font-size: 20px
+.principal {
+	padding: 3em 0;
 }
 
-em strong {
-	color: #FF0000;
+.principal p {
+	margin: 0 0 1em;
 }
 
-.itens {
-	font-style: italic
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 150px;
+	float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	text-align: center;
+	margin: 0 0 2em;
 }
 
 .beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+	padding: 3em 0;
 }
 
-ul {
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
 }
 
-.imagembeneficios {
-	width: 50%;
+.itens:first-child {
+	font-weight: bold;
 }
+
+.itens {
+	line-height: 1.5;
+}
+.itens:before {
+	content: "★ ";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	box-shadow: 10px 10px 10px #000;
+}
+
+.video {
+	margin: 2em auto;
+	width: 560px;
+}
+
+footer {
+    text-align: center;
+    background: url(fotos/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+
